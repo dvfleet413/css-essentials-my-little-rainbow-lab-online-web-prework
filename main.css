@@ -1,5 +1,13 @@
+#red {
+  border-color: #f00;
+}
+
+#orange {
+  border-color: #ffa500;
+}
+
 div {
-  border: 20px solid #000; /* this is short hand for setting
+  border: 20px solid; /* this is short hand for setting
                             the border's width, its type, and color */
   display: inline-block; /* a way of positioning elements */
   min-width: 20em; /* the two min styles make the shape */
@@ -10,10 +18,4 @@ div {
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
 
-#red {
-  border-color: #f00;
-}
 
-#orange {
-  border-color: #ffa500;
-}
